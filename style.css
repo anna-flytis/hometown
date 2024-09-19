@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+}
+
+.head {
+    background-image: url("images/front-img1.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+  
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between the logo and the menu */
+    background-color: aliceblue;
+    padding: 0px 40px;
+}
+
+.menu-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto; /* This pushes the items to the right */
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar li {
+    margin-left: 20px; /* Adds space between the list items */
+}
+
+a {
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+}
+#no-bullets {
+    list-style-type: none;
+  }
+
+.card {
+    display: flex;
+    justify-content: space-around;
+}
